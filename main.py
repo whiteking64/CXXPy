@@ -12,4 +12,5 @@ def main():
 
 
 if __name__ == "__main__":
+    # clang++ -O3 -Wall -shared -std=c++14 -fPIC `python3 -m pybind11 --includes` module.cpp -o module`python3-config --extension-suffix`
     main()
